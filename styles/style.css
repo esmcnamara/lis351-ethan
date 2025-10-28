@@ -89,6 +89,16 @@ footer {
   border-top: 3px solid #C24A36;
 }
 
+/* Contrast fixes on dark bars */
+header h1, header h2, header p { color: #FFFFFF; }
+header a { color: #FFFFFF; }
+header a:hover, header a:focus { color: #FFD166; }
+
+footer, footer p { color: #FFFFFF; }
+footer a { color: #FFFFFF; text-decoration: underline; }
+footer a:visited { color: #E6F0FF; }
+footer a:hover, footer a:focus { color: #FFD166; }
+
 .accent-bg {
   background-color: #FA9484;
   color: #000000;
