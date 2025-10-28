@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | My Personal Website</title>
+  <meta name="description" content="Welcome to my LIS 351 project website. Learn more about me, my sports interests, hobbies, and professional goals.">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
 
+<body>
+  <header role="banner">
+    <h1>Welcome to My Website</h1>
+    <p>Learn more about me, my interests, and my goals through this site.</p>
+  </header>
 
-	<!--- Code above this line will not be displayed on the browser --> 
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Sports.html">Sports</a></li>
+      <li><a href="ProfessionalGoals.html">Professional Goals</a></li>
+      <li><a href="Hobbies.html">Hobbies</a></li>
+    </ul>
+  </nav>
 
-	<body>
+  <main role="main">
+    <section id="intro">
+      <h2>About This Website</h2>
+      <p>
+        This website was created for my LIS 351 Introduction to Digital Information course. 
+        It shares who I am, what I enjoy doing, and my professional aspirations.
+      </p>
+    </section>
 
-		<p> Hello world! </p>
-		<p> Hello my name is Ethan! </p>
+    <section id="highlights">
+      <h2>Explore My Pages</h2>
+      <ul>
+        <li><strong><a href="AboutMe.html">About Me</a></strong> — My background, childhood, and life story.</li>
+        <li><strong><a href="Sports.html">Sports</a></strong> — My favorite sports, teams, and athletes.</li>
+        <li><strong><a href="ProfessionalGoals.html">Professional Goals</a></strong> — My education and career ambitions.</li>
+        <li><strong><a href="Hobbies.html">Hobbies</a></strong> — Things I do for fun and creativity.</li>
+      </ul>
+    </section>
 
-	</body>
+    <section id="image">
+      <h2>Welcome Image</h2>
+      <img src="images/hero.jpg" alt="A welcoming image representing learning and creativity.">
+      <p class="credit">Image: Photo by Me or licensed under Creative Commons.</p>
+    </section>
+  </main>
 
+  <footer role="contentinfo">
+    <p>&copy; 2025 Your Name | Built for LIS 351 – Introduction to Digital Information</p>
+    <p><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">Learn more about web development at MDN Web Docs</a></p>
+  </footer>
+</body>
 </html>
