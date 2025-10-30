@@ -4,7 +4,7 @@ body {
   background-color: #E7EDF4;
   margin: 0;
   padding: 20px;
-  line-height: 1.6;
+  line-height: 2;
 }
 
 header, nav, footer {
@@ -40,10 +40,9 @@ nav a:focus {
 section {
   background-color: #FFFFFF;
   margin: 2em auto;
-  padding: 1.5em;
+  padding: 2em;
   max-width: 900px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .section-alt {
@@ -79,12 +78,11 @@ img {
 }
 
 .flex-layout img {
-  max-width: 40%;
   min-width: 250px;
 }
 
 footer {
-  font-size: 0.9em;
+  font-size: 1em;
   margin-top: 3em;
   border-top: 3px solid #C24A36;
 }
@@ -101,12 +99,12 @@ footer a:hover, footer a:focus { color: #FFD166; }
 .accent-bg {
   background-color: #FA9484;
   color: #000000;
-  padding: 0.5em;
+  padding: 1em;
   border-radius: 6px;
 }
 
 .credit {
-  font-size: 0.85em;
+  font-size: 1em;
   color: #4E5A66;
 }
 h1, h2 {
