@@ -89,7 +89,6 @@ footer {
   border-top: 3px solid #C24A36;
 }
 
-/* Contrast fixes on dark bars */
 header h1, header h2, header p { color: #FFFFFF; }
 header a { color: #FFFFFF; }
 header a:hover, header a:focus { color: #FFD166; }
@@ -110,3 +109,7 @@ footer a:hover, footer a:focus { color: #FFD166; }
   font-size: 0.85em;
   color: #4E5A66;
 }
+h1, h2 {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
